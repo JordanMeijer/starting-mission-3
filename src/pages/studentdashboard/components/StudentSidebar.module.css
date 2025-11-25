@@ -1,0 +1,17 @@
+/* sidbar css */
+.sidebar {
+    background-color: aqua;
+    height: 80vh;
+    width: 15vw;
+    transition:  0.3s ease-in-out;
+}
+
+.isCollapsed{
+    width: 5vw;
+    transition:  0.3s ease-in-out;
+}
+
+.isCollapsed li{
+    background-color: red;
+    display: none;
+}
